@@ -14,7 +14,7 @@ test('KeyBoard_Actions', async ({ page }) => {
     await page.keyboard.press('PageUp');
     await page.keyboard.press('PageDown');
 
-    console.log('Keyboard Actions are Performed Successfully');
-
-    await page.close();
+    await page.keyboard.press('Home');
+    await page.keyboard.press('End');
+   
 });
