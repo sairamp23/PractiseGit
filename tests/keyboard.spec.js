@@ -13,4 +13,6 @@ test('KeyBoard_Actions', async ({ page }) => {
 
     await page.keyboard.press('PageUp');
     await page.keyboard.press('PageDown');
+
+    await page.close();
 });
